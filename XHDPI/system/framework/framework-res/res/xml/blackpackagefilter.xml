@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <FilterActivity packagename="com.funshion.video" />
+    <FilterActivity packagename="com.qiyi.video" />
+    <FilterActivity packagename="com.sohutv.tv" />
+    <FilterActivity packagename="tv.pps.pad" />
+    <FilterActivity packagename="com.pplive.androidpad" />
+    <FilterActivity packagename="com.tencent.qqlive" />
+    <FilterActivity packagename="com.android.gallery3d" />
+    <FilterActivity packagename="com.sumavision.ott.tv" />
+    <FilterActivity packagename="com.amlogic.mediacenter" />
+    <FilterActivity packagename="com.moliplayer.android" />
+    <FilterActivity packagename="com.mxtech.videoplayer.ad" />
+    <FilterActivity packagename="com.storm.smart" />
+    <FilterActivity packagename="afzkl.development.mVideoPlayer" />
+    <FilterActivity packagename="com.hunantv.imgo.activity" />
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="516.59375dip" android:layout_marginTop="273.29688dip" android:layout_marginRight="516.59375dip" android:layout_marginBottom="10.0dip" android:src="@drawable/letv_shutdown_logo" />
+    <ProgressBar android:gravity="center_horizontal" android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="613.2969dip" android:layout_marginRight="613.2969dip" style="?android:attr/progressBarStyleLargeLetv" />
+    <TextView android:textAppearance="?textAppearanceMediumLetvInverse" android:gravity="center" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.299988dip" android:text="@string/shutdown_progress" />
+</LinearLayout>

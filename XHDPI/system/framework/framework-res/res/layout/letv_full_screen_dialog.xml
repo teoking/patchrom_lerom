@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#ff181b23" android:paddingLeft="120.0dip" android:paddingRight="120.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLargeLetv" />
+        <TextView android:textAppearance="?textAppearanceMediumLetvInverse" android:gravity="center" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="54.0dip" android:text="@string/loading" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/button_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="54.0dip">
+            <Button android:textAppearance="?textAppearanceMediumLetv" android:textColor="@color/primary_text_holo_letv" android:id="@id/first" android:background="@drawable/list_selector_holo_letv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ok" android:layout_weight="1.0" />
+            <Button android:textAppearance="?textAppearanceMediumLetv" android:textColor="@color/primary_text_holo_letv" android:id="@id/second" android:background="@drawable/list_selector_holo_letv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" />
+            <Button android:textAppearance="?textAppearanceMediumLetv" android:textColor="@color/primary_text_holo_letv" android:id="@id/third" android:background="@drawable/list_selector_holo_letv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_mode_done" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

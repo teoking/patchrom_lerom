@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/background">
+        <nine-patch android:src="@drawable/progressbar_bg" />
+    </item>
+    <item android:id="@id/secondaryProgress">
+        <shape>
+            <corners android:radius="14.0dip" />
+            <gradient android:startColor="#ff616161" android:endColor="#ff616161" android:angle="0.0" android:centerX="1.0" android:centerColor="#ff616161" />
+        </shape>
+    </item>
+    <item android:id="@id/progress">
+        <shape>
+            <corners android:radius="14.0dip" />
+            <gradient android:startColor="#ff0049ff" android:endColor="#ffa9a8ff" android:angle="0.0" android:centerX="1.0" android:centerColor="#ff00baff" />
+        </shape>
+    </item>
+</layer-list>

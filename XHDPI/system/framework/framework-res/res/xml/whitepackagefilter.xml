@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <FilterActivity packagename="com.farcore.videoplayer">
+        <Class name="com.farcore.videoplayer.playermenu" />
+    </FilterActivity>
+    <FilterActivity packagename="com.amlogic.amvideoplayer">
+        <Class name="com.amlogic.amvideoplayer.AmVideoPlayer" />
+    </FilterActivity>
+    <FilterActivity packagename="com.android.browser" />
+</resources>
